@@ -1,7 +1,7 @@
 /* Navigation bar styling */
     @font-face {
-    font-family: Sketch;
-    src: url(fonts/Sketch.ttf);
+    font-family: Pacifico;
+    src: url(fonts/Pacifico.ttf);
 }
 
 nav {
@@ -32,11 +32,7 @@ nav {
     color: white;
     padding: 1rem;
   }
-  
-  .logo img {
-    height: 2rem;
-    margin-right: 1rem;
-  }
+
   
   /* Hero section styling */
   .hero {
@@ -46,10 +42,10 @@ nav {
   }
   
   .hero h1 {
-    font-family: 'Sketch', sans-serif;
-    font-size: 3rem;
+    font-family: 'Pacifico', Times, serif;
+    font-size: 5rem;
     margin-bottom: 0.5rem;
-    color:whitesmoke;
+    color:rgb(255, 35, 35);
   }
   
   .hero h2 {
@@ -155,7 +151,7 @@ a {
     color: #8e8e8e;
   }
   body {
-    background-image: url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg?w=1380&t=st=1677521518~exp=1677522118~hmac=ab8322cfd39fe3857ba15abcef64aa7c2a794b338e46eb809e3d2a6adea8a2b4');
+    background-image: url('circuits.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
