@@ -57,6 +57,27 @@ nav {
     font-weight: normal;
     color: whitesmoke;
   }
+  .hero h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: whitesmoke;
+  } .hero h4 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: whitesmoke;
+  } .hero h5 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: whitesmoke;
+  } .hero h6 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: whitesmoke;
+  } .hero p {
+    font: 1.5em sans-serif;
+    font-weight: normal;
+    color: whitesmoke;
+  } 
   
   /* Notes section styling */
   .notes {
