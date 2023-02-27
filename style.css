@@ -1,143 +1,145 @@
-/* Global styles */
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+/* Navigation bar styling */
+    @font-face {
+    font-family: Sketch;
+    src: url(fonts/Sketch.ttf);
 }
 
-body {
-	font-family: Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-}
-
-header {
-	background-color: #333;
-	color: #000000;
-}
-
-nav ul {
-	display: flex;
-	justify-content: center;
-	list-style: none;
-}
-
-nav li {
-	margin: 0 10px;
-}
-
-nav a {
-	color: #fff;
-	text-decoration: none;
-	padding: 10px;
-	transition: background-color 0.2s ease;
-}
-
-nav a:hover {
-	background-color: #fff;
-	color: #333;
-}
-
-main {
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 20px;
-}
-
-section.hero {
-	background-image: url('hero.jpg');
-	background-size: cover;
-	background-position: center;
-	height: 400px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	color: #fff;
-}
-
-section.hero h1 {
-	font-size: 4rem;
-	margin-bottom: 10px;
-}
-
-section.hero p {
-	font-size: 1.5rem;
-	margin-bottom: 20px;
-}
-
-.btn-primary, .btn-secondary {
-	display: inline-block;
-	background-color: #333;
-	color: #fff;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	font-size: 1.2rem;
-	text-align: center;
-	text-decoration: none;
-	transition: background-color 0.2s ease;
-}
-
-.btn-primary:hover, .btn-secondary:hover {
-	background-color: #fff;
-	color: #333;
-}
-
-.btn-secondary {
-	margin-left: 10px;
-}
-
-section.notes {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	gap: 20px;
-	margin-top: 40px;
-}
-
-section.notes h2 {
-	margin-bottom: 20px;
-	font-size: 2rem;
-	text-align: center;
-}
-
-.note {
-	border: 1px solid #ccc;
-	padding: 20px;
-	border-radius: 5px;
-	text-align: center;
-}
-
-.note img {
-	max-width: 100%;
-	margin-bottom: 20px;
-}
-
-.note h3 {
-	font-size: 1.5rem;
-	margin-bottom: 10px;
-}
-
-.note p {
-	font-size: 1.2rem;
-	margin-bottom: 20px;
-}
-
-footer {
-	background-color: #333;
-	color: #fff;
-	padding: 10px 20px;
-	text-align: center;
-	margin-top: 40px;
-}
-.logo {
-	position: absolute;
-	top: 30px;
-	left: 20px;
-}
-
-.logo img {
-	height: 50px; /* Adjust the height as needed */
-}
-
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;
+    color:transparent;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  /* Hover effect for navigation links */
+  nav a:hover {
+    background-color: white;
+    color: #333;
+    border-radius: 0.25rem;
+  }
+  
+  /* Header styling */
+  header {
+    background-color:transparent;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .logo img {
+    height: 2rem;
+    margin-right: 1rem;
+  }
+  
+  /* Hero section styling */
+  .hero {
+    background-color:transparent;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-family: 'Sketch', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color:whitesmoke;
+  }
+  
+  .hero h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: whitesmoke;
+  }
+  
+  /* Notes section styling */
+  .notes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .note {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  
+  .note h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .note a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for note links */
+  .note a:hover {
+    color: white;
+    background-color:transparent;
+    border-radius: 0.25rem;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color:transparent;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0.5rem 0;
+  }
+  /* Style for the hyperlink */
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  /* Hover effect */
+  a:hover {
+    color: #007bff;
+  }
+  
+  /* Style for the note container */
+  .note {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the note title */
+  .note h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Style for the note title hyperlink */
+  .note h1 a {
+    color: #333;
+  }
+  
+  /* Hover effect for the note title hyperlink */
+  .note h1 a:hover {
+    color: #0dff00;
+  }
+  body {
+    background-image: url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg?w=1380&t=st=1677521518~exp=1677522118~hmac=ab8322cfd39fe3857ba15abcef64aa7c2a794b338e46eb809e3d2a6adea8a2b4');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero {
+   
+  }
+  
+  
