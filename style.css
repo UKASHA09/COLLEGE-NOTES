@@ -155,8 +155,27 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .hero {
-   
+  .notes ul.neon {
+    list-style-type: none; /* remove default bullet points */
+    padding: 0; /* remove any default padding */
   }
+  
+  .notes ul.neon li {
+    margin-bottom: 10px; /* add spacing between list items */
+  }
+  
+  .notes ul.neon a {
+    display: block; /* make the link fill the entire list item */
+    text-decoration: none; /* remove underline from links */
+    color: #fff; /* set link color to white */
+    font-size: 18px; /* set font size */
+    text-shadow: 0 0 5px #f00, 0 0 10px #f00, 0 0 15px #f00, 0 0 20px #f00; /* apply the neon effect */
+  }
+  
+  .notes ul.neon a:hover {
+    color: #fff; /* set link color to white */
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #f00; /* apply the hover effect */
+  }
+  
   
   
