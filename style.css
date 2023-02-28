@@ -170,4 +170,12 @@ a {
     background-size: cover;
     background-position:right;
   }
-  
+  body.alt-theme {
+    background-image: url(the-polygon-1562743.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  header.alt-theme {
+    color: red;
+  }
