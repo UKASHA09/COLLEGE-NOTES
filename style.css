@@ -1,5 +1,5 @@
 .notes ul.neon {
-  list-style-type: none; /* remove default bullet points */
+  list-style-type:symbols(arrow); /* remove default bullet points */
   padding: 0; /* remove any default padding */
 }
 
