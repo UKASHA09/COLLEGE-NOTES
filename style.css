@@ -135,6 +135,7 @@ nav {
   
   footer p {
     margin: 0.5rem 0;
+    padding-bottom: 0%;
   }
   /* Style for the hyperlink */
 a {
@@ -167,5 +168,6 @@ a {
     background-image: url('circuits.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
   }
   
