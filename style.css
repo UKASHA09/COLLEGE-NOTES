@@ -36,7 +36,7 @@ nav {
   }
   
   nav a {
-    color: white;
+    color: grey;
     text-decoration: none;
     padding: 0.5rem;
   }
@@ -51,7 +51,7 @@ nav {
   /* Header styling */
   header {
     background-color:transparent;
-    color: white;
+    color: grey;
     padding: 1rem;
   }
 
@@ -73,28 +73,28 @@ nav {
   .hero h2 {
     font-size: 1.5rem;
     font-weight: normal;
-    color: whitesmoke;
+    color: gray;
   }
   .hero h3 {
     font-size: 1.5rem;
     font-weight: normal;
-    color: whitesmoke;
+    color: gray;
   } .hero h4 {
     font-size: 1.5rem;
     font-weight: normal;
-    color: whitesmoke;
+    color: gray;
   } .hero h5 {
     font-size: 1.5rem;
     font-weight: normal;
-    color: whitesmoke;
+    color:gray;
   } .hero h6 {
     font-size: 1.5rem;
     font-weight: normal;
-    color: whitesmoke;
+    color: gray;
   } .hero p {
     font: 1.5em sans-serif;
     font-weight: normal;
-    color: whitesmoke;
+    color:gray;
   } 
   
   /* Notes section styling */
@@ -128,7 +128,7 @@ nav {
   /* Footer styling */
   footer {
     background-color:transparent;
-    color: white;
+    color: darkgrey;
     padding: 1rem;
     text-align: center;
   }
@@ -183,12 +183,12 @@ a {
     background-color:red; /* Set background color */
     border: none; /* Remove border */
     color: white; /* Set text color */
-    padding: 10px 20px; /* Set padding */
+    padding: 5px 10px; /* Set padding */
     text-align: center; /* Center text */
     text-decoration: none; /* Remove underline */
     display: inline-block; /* Make it inline */
     font-size: 16px; /* Set font size */
-    margin: 4px 2px; /* Add margin */
+    margin: 2px 1px; /* Add margin */
     cursor: pointer; /* Add cursor on hover */
     border-radius: 25px; /* Round edges */
     transition: all 0.3s ease-in-out; /* Add transition */
@@ -197,4 +197,3 @@ a {
   button:hover {
     background-color: rgb(246, 94, 94); /* Change background color on hover */
   }
-  
