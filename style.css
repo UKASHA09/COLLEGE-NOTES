@@ -12,7 +12,7 @@
   display: block; /* make the link fill the entire list item */
   text-decoration: none; /* remove underline from links */
   color: #fff; /* set link color to white */
-  font-size: 18px; /* set font size */
+  font-size: 25px; /* set font size */
   text-shadow: 0 0 5px #f00, 0 0 10px #f00, 0 0 15px #f00, 0 0 20px #f00; /* apply the neon effect */
 }
 
