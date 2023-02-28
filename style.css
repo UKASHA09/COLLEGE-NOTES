@@ -179,3 +179,22 @@ a {
   header.alt-theme {
     color: red;
   }
+  button {
+    background-color:red; /* Set background color */
+    border: none; /* Remove border */
+    color: white; /* Set text color */
+    padding: 10px 20px; /* Set padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it inline */
+    font-size: 16px; /* Set font size */
+    margin: 4px 2px; /* Add margin */
+    cursor: pointer; /* Add cursor on hover */
+    border-radius: 25px; /* Round edges */
+    transition: all 0.3s ease-in-out; /* Add transition */
+  }
+  
+  button:hover {
+    background-color: rgb(246, 94, 94); /* Change background color on hover */
+  }
+  
